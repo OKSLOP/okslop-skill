@@ -78,6 +78,10 @@ Claude Code skills are markdown files with YAML frontmatter that teach Claude ne
 
 The skill file lives at `.claude/skills/okslop/SKILL.md` and is automatically discovered by Claude Code.
 
+## Documentation
+
+Full docs: **[okslop.com/developers/docs#claude-code-skill](https://okslop.com/developers/docs#claude-code-skill)**
+
 ## Also Available
 
 - **[okslop](https://www.npmjs.com/package/okslop)** — TypeScript SDK + CLI + React components
