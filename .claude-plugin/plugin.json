@@ -1,0 +1,8 @@
+{
+  "name": "okslop",
+  "version": "1.0.0",
+  "description": "Search and generate AI stock images with OKSLOP",
+  "author": "OKSLOP <dev@okslop.com>",
+  "homepage": "https://okslop.com/developers/docs#claude-code-skill",
+  "repository": "https://github.com/OKSLOP/okslop-claude-skill"
+}
