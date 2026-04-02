@@ -28,32 +28,18 @@ You don't need to learn any commands. Claude handles the technical details.
 ## Install
 
 ```bash
-npx skill install OKSLOP/okslop-skill
+npx okslop-skill
 ```
 
-That's it. Works with Claude Code and any agent that supports the skill protocol.
+That's it. Copies the skill files to your project's `.claude/skills/` directory. Works with Claude Code and any agent that supports the skill protocol.
 
 <details>
-<summary>Other install methods</summary>
-
-**Claude Code slash command:**
-
-```
-/install-skill https://github.com/OKSLOP/okslop-skill
-```
-
-**Plugin marketplace:**
-
-```
-/plugin marketplace add OKSLOP/claude-plugins
-/plugin install okslop@OKSLOP-claude-plugins
-```
-
-**Manual:**
+<summary>Alternative: clone manually</summary>
 
 ```bash
 git clone https://github.com/OKSLOP/okslop-skill.git
 cp -r okslop-skill/.claude/skills/okslop .claude/skills/
+rm -rf okslop-skill
 ```
 
 </details>

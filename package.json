@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/OKSLOP/okslop-skill"
   },
+  "bin": {
+    "okslop-skill": "./install.js"
+  },
   "keywords": [
     "okslop",
     "claude-code",
@@ -22,6 +25,7 @@
   "files": [
     ".claude-plugin/plugin.json",
     ".claude/skills/okslop/SKILL.md",
+    "install.js",
     "README.md",
     "LICENSE"
   ]
