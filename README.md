@@ -1,42 +1,37 @@
-# OKSLOP — Stock Images for Claude Code
+# OKSLOP — Infinite Images for AI Agents
 
 [![OKSLOP — Free AI-generated stock photos](https://okslop.com/og-default.jpg)](https://okslop.com)
 
 **Add images to anything you're building — just by asking.**
 
-Install this skill and Claude learns how to find, generate, and insert stock images into your projects. No API knowledge needed. No image editing. Just describe what you want.
+Install this skill and your AI coding agent learns how to find, generate, and insert stock images into your projects. No API knowledge needed. No image editing. Just describe what you want.
 
 > "Add a hero image to my landing page"
 
-Claude searches millions of free AI-generated photos, picks the best match, downloads it, and inserts the right code. Done.
+Your agent searches millions of free AI-generated photos, picks the best match, downloads it, and inserts the right code. Done.
 
 ## Examples
 
-Just talk to Claude like you normally would:
-
 | What you say | What happens |
 |---|---|
-| "I need a cover photo for this blog post" | Claude searches for a matching image and adds it to your frontmatter |
-| "Add some product photos to the pricing page" | Claude finds relevant images and inserts them as `<img>` tags |
-| "Generate a flat-lay image of desk accessories" | Claude creates a custom image from your description |
-| "Find me 5 options for a nature background" | Claude shows you choices and lets you pick |
-| "This README needs a header image" | Claude finds something fitting and adds the markdown |
-| "Replace the placeholder with a real photo" | Claude swaps in an actual stock image |
-
-You don't need to learn any commands. Claude handles the technical details.
+| "I need a cover photo for this blog post" | Searches for a matching image and adds it to your frontmatter |
+| "Add some product photos to the pricing page" | Finds relevant images and inserts them as `<img>` tags |
+| "Generate a flat-lay image of desk accessories" | Creates a custom image from your description |
+| "Find me 5 options for a nature background" | Shows you choices and lets you pick |
+| "This README needs a header image" | Finds something fitting and adds the markdown |
 
 ## Install
 
+Works with any agent that supports the [agent-skills protocol](https://github.com/vercel-labs/agent-skills).
+
 ```bash
-npx okslop-skill
+npx skill OKSLOP/okslop-skill
 ```
 
-That's it. Copies the skill files to your project's `.claude/skills/` directory. Works with Claude Code and any agent that supports the skill protocol.
-
 <details>
-<summary>Other install methods</summary>
+<summary>Claude Code</summary>
 
-**Claude Code slash command:**
+**Slash command:**
 
 ```
 /install-skill https://github.com/OKSLOP/okslop-skill
@@ -49,7 +44,16 @@ That's it. Copies the skill files to your project's `.claude/skills/` directory.
 /plugin install okslop@OKSLOP-claude-plugins
 ```
 
-**Manual:**
+**npx (Claude-specific):**
+
+```bash
+npx okslop-skill
+```
+
+</details>
+
+<details>
+<summary>Manual</summary>
 
 ```bash
 git clone https://github.com/OKSLOP/okslop-skill.git

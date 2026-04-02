@@ -4,7 +4,7 @@
   "description": "Skill for searching and generating stock images with OKSLOP",
   "license": "MIT",
   "author": "OKSLOP <dev@okslop.com> (https://okslop.com)",
-  "homepage": "https://okslop.com/developers/docs#claude-code-skill",
+  "homepage": "https://okslop.com/apps/agent-skill",
   "repository": {
     "type": "git",
     "url": "https://github.com/OKSLOP/okslop-skill"
