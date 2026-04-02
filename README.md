@@ -34,7 +34,22 @@ npx okslop-skill
 That's it. Copies the skill files to your project's `.claude/skills/` directory. Works with Claude Code and any agent that supports the skill protocol.
 
 <details>
-<summary>Alternative: clone manually</summary>
+<summary>Other install methods</summary>
+
+**Claude Code slash command:**
+
+```
+/install-skill https://github.com/OKSLOP/okslop-skill
+```
+
+**Plugin marketplace:**
+
+```
+/plugin marketplace add OKSLOP/claude-plugins
+/plugin install okslop@OKSLOP-claude-plugins
+```
+
+**Manual:**
 
 ```bash
 git clone https://github.com/OKSLOP/okslop-skill.git
