@@ -1,13 +1,13 @@
 {
-  "name": "okslop-claude-skill",
+  "name": "okslop-skill",
   "version": "0.0.1",
-  "description": "Claude Code skill for searching and generating stock images with OKSLOP",
+  "description": "Skill for searching and generating stock images with OKSLOP",
   "license": "MIT",
   "author": "OKSLOP <dev@okslop.com> (https://okslop.com)",
   "homepage": "https://okslop.com/developers/docs#claude-code-skill",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OKSLOP/okslop-claude-skill"
+    "url": "https://github.com/OKSLOP/okslop-skill"
   },
   "keywords": [
     "okslop",
